@@ -18,3 +18,169 @@
  @import "bootstrap-sprockets";
  @import "bootstrap";
  @import "font-awesome";
+
+ .custab{
+   border: 1px solid #ccc;
+   padding: 5px;
+   margin: 5% 0;
+   box-shadow: 3px 3px 2px #ccc;
+   transition: 0.5s
+ }
+
+ .custab:hover{
+   box-shadow: 3px 3px 0px transparent;
+   transition: 0.5s;
+}
+
+ .jumbotron {
+   background-image:url('https://cdn.lynda.com/course/471665/471665-636167167597190456-16x9.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding-bottom: 110px;
+ }
+
+
+ .title {
+   font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+   text-align: center;
+   margin-top: 100px;
+   margin-bottom: 10px;
+   font-size: 3em;
+ }
+
+ .slogan {
+   margin-top: 3px;
+   margin-bottom: 50px;
+   text-align: center;
+   font-weight: bold;
+   color: rgb(105,105,105);
+   top: 12px;
+  }
+
+ .lead {
+   margin-bottom: 60px;
+   text-align: center;
+   color: white;
+ }
+
+ .caption {
+   font-size: 0.005em;
+   margin: 0px;
+   color: rgb(105,105,105);
+ }
+
+ .thumbnail {
+   border: 0 none;
+   box-shadow: none;
+   margin-top: 60px;
+   text-align: center;
+   font-family: serif;
+ }
+
+ .phrase {
+   margin-left: 0px;
+ }
+
+ .navbar-default {
+   background-color: rgb(255,255,255);
+   border-color: rgb(255,255,255);
+   margin-bottom: 0;
+ }
+
+@media (min-width: 768px){
+  .navbar {
+    border-radius: 0;
+  }
+}
+
+.navbar-default .navbar-brand {
+  color: #EF6C00;
+  padding: 10px 15px;
+  line-height: 30px;
+  font-size: 1.5em;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #FF6F00;//鼠标放置在链接上的文字颜色
+  background-color: transparent;//鼠标放置在链接上的背景颜色，这里设为透明
+}
+
+.navbar-default .navbar-nav > li > a{
+  color: #EF6C00;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #FF6F00;
+  background-color: transparent;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #FF6F00;
+  background-color: white;
+}
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:focus,
+.navbar-default .navbar-nav > .open > a:hover {
+    background-color: #FFE0B2;
+    color: #212121;
+}
+
+.navbar-brand > img {
+    display: inline-block;	//图片和链接文字显示在同一行
+    margin-right: 10px; //图片和链接文字拉开一点距离
+    width: 32px; //定制图片宽度
+    height: 32px; //定制图片高度
+}
+
+.btn-danger {
+    color: #fff;//字体颜色
+    background-color: #EF6C00;//背景颜色
+    border-color: #EF6C00;//边框颜色
+}
+
+.btn-danger:hover {
+    background-color: #E65100;//鼠标放置在btn上的背景颜色
+    border-color: #E65100;//鼠标放置在btn上的边框颜色
+}
+
+.account {
+  background-color: rgb(0,128,128);
+  color:rgb(255,255,255);
+  width: 256px;
+  text-align: center;
+  border-radius: 3px;//btn圆角
+  font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+}
+
+.introduction{
+  background-image:url('http://www.uksoftech.com/wp-content/uploads/2016/02/website-design-background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 110px;
+}
+
+.content {
+  text-align: center;
+  color: white;
+  top: 12px;
+  padding-top: 30px;
+  font-size: 1.5em;
+  font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+ }
+
+.take {
+  color:grey;
+}
+
+.text-center {
+  color:rgb(0,128,128)
+}
+
+.icon {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}

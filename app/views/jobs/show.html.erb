@@ -1,10 +1,17 @@
-<h1> <%= @job.title %></h1>
+<div class="account">
+<h2> <%= @job.title %></h2>
+</div>
+<hr/>
 
 <p>
+  <h4>职位诱惑:</h4>
+  <p>扁平化管理，升值空间大，五险一金，带薪年假</p>
+  <br/>
+  <h4>职位描述:</h4>
   <%= simple_format(@job.description) %>
-
 </p>
-
+<hr/>
+<br/><br/>
 <div class="text-center">
-  <%= link_to("提交履历", new_job_resume_path(@job), :style => "font-size: 30px; text-decoration:underline;") %>
+  <%= link_to("投个简历", new_job_resume_path(@job), class: "btn btn-lg btn-danger") %>
 </div>

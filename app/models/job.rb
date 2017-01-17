@@ -19,3 +19,8 @@ class Job < ApplicationRecord
 
   has_many :resumes
  end
+
+  def self.search(search)
+  where("name LIKE ?", "%#{search}%")
+  where("content LIKE ?", "%#{search}%")
+end
